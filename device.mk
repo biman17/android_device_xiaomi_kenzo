@@ -63,5 +63,11 @@ $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
       persist.ota.romname=LegendROM \
-      persist.ota.version=20170812 \
+      persist.ota.version=20170901 \
       persist.ota.manifest=https://raw.githubusercontent.com/LegendROM-N/android_extras_ota/cm-14.1/kenzo.xml
+
+# USB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
