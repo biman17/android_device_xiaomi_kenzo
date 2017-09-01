@@ -17,3 +17,7 @@ persist.radio.start_ota_daemon=1
 
 #Legend Version
 ro.legendrom.version=18.0
+
+
+#Background apps more running
+ro.sys.fw.bg_apps_limit=35
