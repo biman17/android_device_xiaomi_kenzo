@@ -59,3 +59,9 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from msm8956-common
 $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
+
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+      persist.ota.romname=LegendROM \
+      persist.ota.version=20170812 \
+      persist.ota.manifest=https://raw.githubusercontent.com/LegendROM-N/android_extras_ota/cm-14.1/kenzo.xml
