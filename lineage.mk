@@ -28,6 +28,7 @@ PRODUCT_NAME := lineage_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
+I_WANT_A_QUAIL_STAR=true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
